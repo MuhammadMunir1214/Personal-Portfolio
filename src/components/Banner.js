@@ -11,6 +11,7 @@ export const Banner = () => {
   const [index, setIndex] = useState(1);
   const toRotate = ["Full Stack Developer"];
   const period = 3000;
+  console.log(index);
 
   useEffect(() => {
     let ticker = setInterval(() => {
@@ -20,7 +21,7 @@ export const Banner = () => {
     return () => {
       clearInterval(ticker);
     };
-  }, [text]);
+  }, [text]); // eslint-disable-line react-hooks/exhaustive-deps
 
   const tick = () => {
     let i = loopNum % toRotate.length;

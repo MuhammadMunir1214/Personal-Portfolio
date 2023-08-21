@@ -279,7 +279,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   top: -25px;
 
   background: linear-gradient(#191e63, #ffffff, #ffffff);
-  -webkit-background-clip: text;
+  /* -webkit-background-clip: text; */
   color: transparent;
   background-size: 100% 90%;
 

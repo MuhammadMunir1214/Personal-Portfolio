@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import html from "../assets/img/html.png";
 import CSS from "../assets/img/css.png";
 import JavaScript from "../assets/img/javascript.png";
