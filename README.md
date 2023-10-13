@@ -4,3 +4,7 @@
 # Description 
 Created a personal portfolio website in React.jS, highlighting my skills and projects along with additional information about me.
 
+# Technologies
+-**React.js**   
+-**Styled Components**   
+
