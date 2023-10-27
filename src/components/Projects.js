@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Col, Container, Tab, Row, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCards";
-import projImg1 from "../assets/img/MunirGPT-Img.png";
+import projImg1 from "../assets/img/Munir-GPT.png";
 import projImg2 from "../assets/img/Weather-Img.png";
 import projImg3 from "../assets/img/BMI-Img.png";
 import "./Project.css";
@@ -9,7 +9,7 @@ import "./Project.css";
 export const Projects = () => {
   const allProjects = [
     {
-      title: "Munir-GPT(Coming Soon)",
+      title: "Munir-GPT",
       description:
         "An AI-powered web application that allows users to upload PDFs for analysis and provides intelligent conversational experiences through dynamic chat interactions.",
       imgUrl: projImg1,
@@ -45,7 +45,6 @@ export const Projects = () => {
         <Row>
           <Col>
             <h2>PROJECTS</h2>
-            {/* <p>My Recent Projects</p> */}
             <Tab.Container
               id="projects-tabs"
               defaultActiveKey="all"
